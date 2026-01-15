@@ -849,11 +849,7 @@ wget https://repeatmasker.org/RepeatMasker/RepeatMasker-4.1.7-p1.tar.gz
 tar -zxvf RepeatMasker-4.1.7-p1.tar.gz
 ```
 
-Go to the famdb directory and fetch at least the root partition. check the [README](https://dfam.org/releases/Dfam_3.8/families/FamDB/README.txt) for which partition contains which species, and download all the ones you want.
-```
-cd ./RepeatMasker/Libraries/famdb/
-wget https://dfam.org/releases/Dfam_3.8/families/FamDB/dfam38_full.0.h5.gz
-gunzip *.gz
+Go to the famdb directory and fetch at least the root partition.
 ```
 
 Move back to the RepeatMasker directory and reconfigure RepeatMasker
